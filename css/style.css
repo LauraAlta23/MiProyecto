@@ -51,8 +51,14 @@ header nav ul li{
 header nav ul li a{
     text-decoration: none;
     color: orangered;
-    padding: 0.4rem;
+    padding: 0.5rem;
 }
+
+header nav ul li a:hover{
+    background-color: rgb(248, 231, 231,0.3);
+
+}
+
 
 .presentacion{
     display: flex;
@@ -70,6 +76,15 @@ main div p{
     text-transform: uppercase;
     font-family:'Cormorant SC', serif;
     margin: 1.3rem;
+    height: 1rem;
+    transition: 1s;
+
+}
+
+main div p:hover{
+    height: 4rem;
+    color: violet;
+
 }
 
 
@@ -78,6 +93,14 @@ main div p{
     width: 25rem;
     height: auto;
     margin: 2rem;
+    transition: 1s;
+
+}
+
+.imgborder:hover{
+    width: 27rem;
+    transform: rotate(30deg);
+
 }
 
 section{
@@ -92,6 +115,12 @@ section{
     border-bottom: 1px solid orangered;
 
 }
+
+.sectionindex{
+    border-bottom: 1px solid orangered;
+    
+}
+
 
 .atencion{
     margin-bottom: 2rem;
